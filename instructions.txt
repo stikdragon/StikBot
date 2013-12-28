@@ -1,0 +1,22 @@
+Commands:
+=========
+
+General bot:
+------------
+ - register <password> - create an account
+ - auth <password> - associate your current nick with your account
+ - newgame <gamename> - start a new game of Dominion
+ - join <gamename> - join someone else's game of Dominion
+
+Once in a Dominion game channel:
+--------------------------------
+ - describe <card1> [, <card2>, ...] - describe the listed cards
+ - play <actioncard> - play an action card from your hand
+ - buy <tablecard> - buy a card from the table
+ - show hand - show your current hand (only when it's your turn)
+ - show table - list the cards remaining on the table
+ - stats - list some statistics
+ - skip - end your current turn (if there are no more possible moves then it'll end automatically)
+
+When specifying a <card> you can use its full name or a shortcut, when displayed cards have some letters
+underlined, these are the shortcut.  Eg.  Silver = S, Mine = Mi, Council Room = CR
